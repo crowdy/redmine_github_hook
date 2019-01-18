@@ -1,4 +1,6 @@
-require "test_helper"
+# require "test_helper"
+# ruby 1.9.2 removed ".", the current directory, from the load path.
+require File.expand_path("../../../test_helper.rb", __FILE__)
 
 require "minitest/autorun"
 require "mocha"
